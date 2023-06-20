@@ -99,8 +99,10 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        // 'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
+        'address' => 'noreply@igram.com',
+        // 'name' => env('MAIL_FROM_NAME', 'Example'),
+        'name' => 'Insta',
     ],
 
     /*
