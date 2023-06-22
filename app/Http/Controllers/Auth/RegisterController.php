@@ -74,7 +74,7 @@ class RegisterController extends Controller
         $details = [
             'name'     => $user->name,
             // 'appUrl'   => config('app.url')
-            'appUrl'   => 'http://kredo-insta-training.herokuapp.com/login'
+            'appUrl'   => 'http://dan-insta-app-aeef3306f150.herokuapp.com/login'
         ];
 
         Mail::send('users.emails.register-confirmation', $details, function($message) use($user){
